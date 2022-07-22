@@ -1,8 +1,9 @@
 {
     "name": "typescript-npm-base",
     "version": "1.0.0",
-    "description": "Base configurations for a npm module, includes TS configs.",
-    "main": "index.js",
+    "description": "",
+    "main": "src/index.ts",
+    "bin": "./bin/cli.js",
     "scripts": {
         "dev": "ts-node src/index.ts",
         "build": "tsc",
