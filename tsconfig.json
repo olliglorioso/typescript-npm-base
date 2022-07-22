@@ -11,7 +11,9 @@
         "forceConsistentCasingInFileNames": true,
         "moduleResolution": "node",
         "outDir": "dist",
-        "rootDir": "src"
+        "rootDir": "src",
+        "sourceMap": true,
+        "declaration": true
     },
     "include": ["src"],
     "exclude": ["./jest.config.js", "dist"]
