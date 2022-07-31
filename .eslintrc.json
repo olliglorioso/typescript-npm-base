@@ -21,5 +21,10 @@
         "indent": ["error", 4],
         "semi": ["error", "never"],
         "linebreak-style": ["error", "unix"]
-    }
+    },
+    "ignorePatterns": [
+        "node_modules",
+        "dist",
+        "package-lock.json"
+    ]
 }
